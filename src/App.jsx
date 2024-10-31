@@ -34,7 +34,7 @@ function App() {
       </div>
       <div className={`product-list-container ${showProductList ? 'visible' : ''}`}>
         <ProductList
-          handleGetStartedClick={handleGetStartedClick}
+          setShowProductList={setShowProductList}
         />
       </div>
     </div>
